@@ -124,17 +124,11 @@
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a style="color: #8B0000;" class="nav-link navbar-fnt" href="#">Kategori</a>
-                        </li>
-                        <li class="nav-item">
-                            <a style="color: #8B0000;"class="nav-link navbar-fnt" href="#">Pemesanan</a>
+                        <li style="color: #8B0000;"class="nav-item">
+                            <a style="color: #8B0000;" class="nav-link navbar-fnt" href="{{ route('login') }}" onclick="event.prevent">Login</a>
                         </li>
                         <li style="color: #8B0000;"class="nav-item">
-                            <a style="color: #8B0000;"class="nav-link navbar-fnt" href="#">Profil</a>
-                        </li>
-                        <li style="color: #8B0000;"class="nav-item">
-                            <a style="color: #8B0000;" class="nav-link navbar-fnt" href="/logout" onclick="event.prevent">KELUAR</a>
+                            <a style="color: #8B0000;"class="nav-link navbar-fnt" href="{{ route('register') }}">Daftar</a>
                         </li>
                     </ul>
                 </div>
